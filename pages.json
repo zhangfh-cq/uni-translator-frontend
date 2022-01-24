@@ -1,0 +1,90 @@
+{
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText": "用户登录"
+		}
+	}, {
+		"path": "pages/signup/signup",
+		"style": {
+			"navigationBarTitleText": "用户注册"
+		}
+
+	}, {
+		"path": "pages/tabBar/translate/translate",
+		"style": {
+			"navigationBarTitleText": "语言翻译"
+		}
+	}, {
+		"path": "pages/tabBar/new-word/new-word",
+		"style": {
+			"navigationBarTitleText": "生词记录",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/tabBar/mine/mine",
+		"style": {
+			"navigationBarTitleText": "我的界面",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/active-email/active-email",
+		"style": {
+			"navigationBarTitleText": "激活邮箱"
+		}
+
+	}, {
+		"path": "pages/modify-info/modify-info",
+		"style": {
+			"navigationBarTitleText": "修改信息"
+		}
+
+	}, {
+		"path": "pages/logoff/logoff",
+		"style": {
+			"navigationBarTitleText": "注销用户"
+		}
+	}],
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTitleText": "翻译君",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6",
+		"mp-360": {
+			"navigationStyle": "custom"
+		},
+		"h5": {
+			"maxWidth": 1190,
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#F1F1F1"
+		}
+
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/tabBar/translate/translate",
+				"iconPath": "static/images/translate.png",
+				"selectedIconPath": "static/images/translateHL.png",
+				"text": "翻译"
+			},
+			{
+				"pagePath": "pages/tabBar/new-word/new-word",
+				"iconPath": "static/images/new-word.png",
+				"selectedIconPath": "static/images/new-wordHL.png",
+				"text": "生词"
+			}, {
+				"pagePath": "pages/tabBar/mine/mine",
+				"iconPath": "static/images/mine.png",
+				"selectedIconPath": "static/images/mineHL.png",
+				"text": "我的"
+			}
+		]
+	}
+}

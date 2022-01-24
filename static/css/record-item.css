@@ -1,0 +1,14 @@
+.record-item {
+	flex: 1;
+	/* #ifdef APP-NVUE */
+	justify-content: center;
+	/* #endif */
+	height: 44px;
+	line-height: 44px;
+	padding: 0 15px;
+	position: relative;
+	background-color: #fff;
+	border-bottom-color: #f5f5f5;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}

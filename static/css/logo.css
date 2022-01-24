@@ -1,0 +1,11 @@
+.logo-box {
+	display: flex;
+	justify-content: center;
+	margin: 40rpx;
+	width: 100vm;
+}
+
+.logo {
+	width: 400rpx;
+	height: 400rpx;
+}
